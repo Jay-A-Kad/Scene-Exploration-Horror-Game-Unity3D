@@ -1,0 +1,21 @@
+{
+    "dialogues": [
+        {
+            "SceneIdx": 1,
+            "DialogueIdx": 1,
+            "sentence": "Hello, how are you?"
+        },
+        {
+            "SceneIdx": 1,
+            "DialogueIdx": 2,
+            "sentence": "I am fine"
+        },
+        {
+            "SceneIdx": 1,
+            "DialogueIdx": 3,
+            "sentence": "Good"
+        }
+      
+    ]
+}
+  

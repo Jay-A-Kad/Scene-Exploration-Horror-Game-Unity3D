@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewItem", menuName = "Inventory/Item_Data")]
+[CreateAssetMenu(fileName = "NewItem", menuName = "Inventory/Item Data")]
 public class ItemData : ScriptableObject, IInventoryItem
 {
     [SerializeField] private string id;
@@ -10,9 +10,9 @@ public class ItemData : ScriptableObject, IInventoryItem
 
     public string Id => id;
 
-    public string DisplayName => DisplayName;
+    public string DisplayName => displayName;
 
-    public bool IsStackable => stackable;
+    public bool Stackable => stackable;
 
     public Sprite Icon => icon;
 

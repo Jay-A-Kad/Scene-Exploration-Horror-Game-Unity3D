@@ -85,7 +85,7 @@ public class DialogueUI : MonoBehaviour
             bodyText.text = line.text;
         if (HintText != null)
         {
-            HintText.text = "[Press E to continue]";
+            HintText.text = "[Press SPACE to continue]";
         }
     }
 
@@ -110,6 +110,6 @@ public class DialogueUI : MonoBehaviour
     }
     private bool AdvancedPressed()
     {
-        return Input.GetKeyDown(KeyCode.E);
+        return Input.GetKeyDown(KeyCode.Space);
     }
 }
